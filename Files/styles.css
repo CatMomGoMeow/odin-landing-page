@@ -1,0 +1,20 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.header-bar,
+.main-bar,
+.footer {
+    background-color: #1F2937 ;
+    color:#E5E7EB;
+}
+
+.quote-bar {
+    background-color: #E5E7EB;
+}
+.action-bar,
+.button {
+    background-color: #3882F6;
+}
