@@ -22,7 +22,7 @@
     background-color: #3882F6;
 }
 
-
+/* set even margins on dark segments */
 .header,
 .main,
 .footer {
@@ -30,12 +30,27 @@
     width: 80%;
 }
 
+
+
+/* style one section at a time */
+/* topmost */
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+  
+}
+.links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
 .foot {
     text-align: center;
 }
 
 
-
+/* borders for troubleshooting only */
 .header,
 .logo,
 .links,
@@ -47,9 +62,5 @@
         
 }
     
-.header-logo {
-    font: 24px;
-    color: #f9faf8;
-    
-}
+
 
