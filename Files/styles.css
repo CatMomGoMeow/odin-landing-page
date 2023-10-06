@@ -2,11 +2,13 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/* set background colors */
 .header-bar,
 .main-bar,
-.footer {
+.foot {
     background-color: #1F2937 ;
     color:#E5E7EB;
 }
@@ -14,7 +16,40 @@
 .quote-bar {
     background-color: #E5E7EB;
 }
+
 .action-bar,
 .button {
     background-color: #3882F6;
 }
+
+
+.header,
+.main,
+.footer {
+    margin: auto;
+    width: 80%;
+}
+
+.foot {
+    text-align: center;
+}
+
+
+
+.header,
+.logo,
+.links,
+.main-left,
+.main-right {
+    border: 1px solid red;
+    
+   
+        
+}
+    
+.header-logo {
+    font: 24px;
+    color: #f9faf8;
+    
+}
+
