@@ -30,18 +30,34 @@
     width: 80%;
 }
 
-
-
 /* style one section at a time */
 /* topmost */
+.header{
+    display: flex;
+}
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    flex:1;
   
 }
 .links{
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    text-align: right;
+    flex:1;   
+}
+
+.links div {
+    flex:1;  
+}
+
+/* second segment */
+
+.main-text {
+    display: flex;
+    flex: wrap;
 }
 
 
@@ -51,11 +67,12 @@
 
 
 /* borders for troubleshooting only */
-.header,
-.logo,
-.links,
+
+.main,
+.main div,
 .main-left,
-.main-right {
+.main-right,
+.button {
     border: 1px solid red;
     
    
