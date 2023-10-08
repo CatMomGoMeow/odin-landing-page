@@ -27,7 +27,7 @@
 .main,
 .footer {
     margin: auto;
-    width: 80%;
+    width: 75%;
 }
 
 /* style one section at a time */
@@ -35,12 +35,13 @@
 .header{
     display: flex;
 }
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
     flex:1;
-  
 }
+
 .links{
     font-size: 18px;
     color: #E5E7EB;
@@ -55,10 +56,60 @@
 
 /* second segment */
 
+/* give segment fixed height */
+.main-bar {
+    height: 300px;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    padding: 4% 0% 4% 0%;
+}
+
+.main-left {
+    padding-right: 5%;
+}
+
+.main-left,
+.main-right {
+    flex: 1; 
+}
+
 .main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
     display: flex;
     flex: wrap;
 }
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    width: 100px;
+    height: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*font-weight: 400;*/
+    
+}
+.main-right img {
+    height: 100%;
+    width: 100%;
+ /* currently set to fit container - 
+ still need to resize image without distortion */   
+}
+
+
 
 
 .foot {
@@ -67,17 +118,15 @@
 
 
 /* borders for troubleshooting only */
-
-.main,
-.main div,
 .main-left,
 .main-right,
 .button {
     border: 1px solid red;
-    
-   
         
 }
     
+.main{
+    border: 1px solid yellow;
+}
 
 
