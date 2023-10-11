@@ -137,27 +137,26 @@
     border-radius: 10px;
     height: 200px;
     width: 200px;
-    
+    margin-left: 20px; 
+    margin-right: 20px;
 }
+
 .info-text,
-.foot {
+.foot,
+.subtext
+ {
     text-align: center;
 }
 
 
 /* borders for troubleshooting only */
 
-.illustration-bar{
-    border: purple 3px solid;
-}       
+.subtext,
+.illustration-bar {
+    border: 2px blue solid;
 }
-.info-bar div {
-    border: 1px solid yellow;
-} 
 
-.info-block {
-    border: 3px dashed green;
-}
+
 
 
 
