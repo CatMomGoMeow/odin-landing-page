@@ -33,6 +33,7 @@
 /* style one section at a time */
 /* topmost */
 .header{
+    padding-top: 5px;
     display: flex;
 }
 
@@ -68,6 +69,7 @@
     padding: 4% 0% 4% 0%;
 }
 
+/*NEED to fix breaking out of container when page made smaller*/
 .main-left {
     padding-right: 5%;
 }
@@ -88,45 +90,69 @@
 .sub-text {
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 5px;
 }
 
 .button {
-    width: 100px;
+    width: 125px;
     height: auto;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /*font-weight: 400;*/
+    font-weight: 600;
     
 }
+
+  /* currently set to fit container - 
+ still need to resize image without distortion */  
 .main-right img {
     height: 100%;
     width: 100%;
- /* currently set to fit container - 
- still need to resize image without distortion */   
 }
 
 
+/* info segment */
 
+/* add style to info-bar to pad top and bottom */
 
+.info-text {
+    font-size:36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.illustration-bar {
+    display:flex;
+    flex: nowrap;
+
+}
+
+/* maybe don't need another class for img*/
+.illustration-bar img {
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+}
+.info-text,
 .foot {
     text-align: center;
 }
 
 
 /* borders for troubleshooting only */
-.main-left,
-.main-right,
-.button {
+.info-bar {
     border: 1px solid red;
         
 }
-    
-.main{
+.info-bar div {
     border: 1px solid yellow;
+} 
+
+.info-block {
+    border: 3px dashed green;
 }
+
 
 
