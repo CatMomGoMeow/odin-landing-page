@@ -188,5 +188,11 @@
     border: 2px solid #f9faf8;
     height: 40px;
 }
-/* borders for troubleshooting only */
 
+.foot {
+    height: 100px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
