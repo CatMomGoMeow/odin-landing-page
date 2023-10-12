@@ -17,7 +17,7 @@
     background-color: #E5E7EB;
 }
 
-.action-bar,
+.action-box,
 .button {
     background-color: #3882F6;
 }
@@ -156,6 +156,7 @@
 
 }
 
+/* bottom margin will merge with action-bar margin*/
 .quote-sig {
     text-align: right;
     margin: 0% 5% 5% 5%;
@@ -163,18 +164,29 @@
     padding-bottom: 5%;
 }
 
-/* borders for troubleshooting only */
+/* call to action section*/
 
-.qaction-bar{
-    border: 2px yellow solid;
-
+.action-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.action-text {
-    border: 2px solid green;
 
+
+.action-box{
+    width:60%;
+    margin-bottom: 5%;
+    padding: 40px 100px 40px 100px;
+    border-radius: 5px;
+    color:#f9faf8;
+    font-size: 20px;    
+    display: flex;
+    justify-content: space-between;
 }
 
 .button2 {
-    border: 2px solid red;
+    border: 2px solid #f9faf8;
+    height: 40px;
 }
+/* borders for troubleshooting only */
 
