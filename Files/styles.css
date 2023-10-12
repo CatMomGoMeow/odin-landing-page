@@ -106,7 +106,7 @@
  }
 
   /* currently set to fit container - 
- still need to resize image without distortion and 
+ need to resize image without distortion and 
  then align to right edge */  
 .main-right img {
     height: 100%;
@@ -127,11 +127,8 @@
     flex: nowrap;
     justify-content: center;
     padding-bottom: 40px;
-   
-
 }
 
-/* maybe don't need another class for img*/
 .illustration-bar img {
     border: 2px solid #3882F6;
     border-radius: 10px;
@@ -143,16 +140,39 @@
 
 .info-text,
 .foot,
-.subtext
- {
+.subtext {
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    wrap: nowrap;
 }
 
+.quote-text {
+    font-size: 36px;
+    font-weight: 50;
+    color: #1F2937;
+    margin: 5% 5% 0% 5%;
+
+}
+
+.quote-sig {
+    text-align: right;
+    margin: 0% 5% 5% 5%;
+    padding-right: 10px;
+}
 
 /* borders for troubleshooting only */
 
+.quote-bar{
+    border: 2px yellow solid;
 
+}
+.quote-text {
+    border: 2px solid green;
 
+}
 
-
+.quote-sig {
+    border: 2px solid red;
+}
 
